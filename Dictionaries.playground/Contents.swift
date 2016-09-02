@@ -6,6 +6,7 @@ var favoriteWords = [
 ]
 
 var numberWords = [1: "one"]
+print(numberWords)
 
 var definition = favoriteWords["rigmarole"]
 
@@ -24,6 +25,7 @@ if let definition = nonexistentDefinition {
 }
 
 favoriteWords["strategery"] = "strategy"
+print(favoriteWords)
 definition = favoriteWords["strategery"]
 
 favoriteWords["strategery"] = nil
